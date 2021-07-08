@@ -45,9 +45,6 @@ export default function Home() {
               <div className={classes.mrgnT25}>
                 <Grid
                   container
-                  direction="row"
-                  justifyContent="center"
-                  alignItems="center"
                   spacing={8}
                 >
                   {cardData.map( (item) => (

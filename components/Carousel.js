@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel'
 import Item from './Item';
-// import Home from '@material-ui/icons/Home';
+import Minimize from '@material-ui/icons/Minimize';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button, Grid } from '@material-ui/core'
 
@@ -33,7 +33,7 @@ export default function Example({items}){
                             <Button variant="contained" color="secondary"> Register </Button>
                         </div>
                         <Carousel
-                            // IndicatorIcon={<Home/>}
+                            IndicatorIcon={<Minimize fontSize="large"/>}
                             autoPlay={false}
                             navButtonsAlwaysInvisible={true}
                         >
